@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    color: rgb(14, 12, 12);
+}
+#encabezado{
+    background-color: black;
+    margin: 0px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    background-image: url(../img/Portada.png);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    grid-template-rows: auto 1fr;
+}
+#primero{
+    display: grid;
+    grid-template-columns: 7fr 2fr 2fr 1fr;
+    background-color: rgba(0, 0, 0, 0.178);
+    align-items: center;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+}
+#logo{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 5%;
+
+
+}
+#login{
+position:absolute;
+width: 125px;
+height:19px;
+left: 1250px;
+top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #B4B7B7;
+}
+#sign{
+position: absolute;
+ width: 125px;
+ height: 19px;
+ left: 1391px;
+ top: 60px;
+ display: flex;
+justify-content: center;
+align-items: center;
+color: #B4B7B7;
+}
+#menu{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 1837px;
+    top: 49px;
+    padding: 2px 15px 2px 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#investigar{
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: none;
+    padding: 10px 0 10px 25px;
+    min-width: 20vw;
+    grid-column: 2/3;
+    grid-column-start: 2;
+    grid-column-end: 3
+    writing-mode: horizontal-tb !important;
+}
+
+#redes{
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    left:4vh;
+    top: 35%;
+    filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    grid-template-columns: 1fr;
+    z-index: 999999;
+}
+#luxury{
+    position: absolute;
+    width: 490px;
+    height: 47px;
+    left:122px;
+    top: 644px;px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color:#B4B7B7;
+}
+#reals{
+position: absolute;
+width: 746px;
+height: 99px;
+left:122px;
+top:686px;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 45px;
+display: flex;
+align-items: center;
+color:#FFFFFF;
+}
+#vista{
+    position: absolute;
+    width: 227px;
+    height: 32px;
+    left: 246px;
+    top: 855px;
+    font-weight: 390;
+    font-size: 30px;
+    line-height: 45px;
+    /* or 150% */
+    align-items: center;
+    
+    color: #FFFFFF;
+    font-weight: 390;
+    font-size: 25px;
+    line-height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 12px 45px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+}
+#propiedadesrenta{}
+#casadron{
+    float: left;
+}
+#england{
+    float: left;
+}
+#marseilles{
+    float:left;
+}
+#propiedadesrenta1{}
+#casacafe{
+    float: right;
+}
+#casaflores{
+    float:right;
+}
+#casapilares{
+    float: right;
+}
