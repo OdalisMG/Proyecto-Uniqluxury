@@ -11,47 +11,48 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    background-image: url(../img/Portada.png);
+    grid-template-rows: auto 1fr;
 }
-#primero{
+#varios{
     display: grid;
-    grid-template-columns: 7fr 2fr 2fr 1fr;
+    grid-template-columns: 7fr 4fr 1fr;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.178);
     align-items: center;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
 }
-
+#registros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #logo{
-    height: fit-content;
     width: fit-content;
+    height: fit-content;
     margin-left: 5%;
-
-
 }
-#varios{
-    position: absolute;
-}
-#login{
-width: 125px;
-height:19px;
-left: 1250px;
-top: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-color:white;
-}
-#sign{
- width: 125px;
- height: 19px;
- left: 1391px;
- top: 60px;
- display: flex;
-justify-content: center;
-align-items: center;
-color: #B4B7B7;
-}
-#menu{
+#log{
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-right: 15px;
     
+}
+
+#sign{
+    font-style: normal;
+    font-weight: 390;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+#menu{
     width: 45px;
     height: 30px;
     left: 1837px;
@@ -59,8 +60,6 @@ color: #B4B7B7;
     padding: 2px 15px 2px 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #investigar{
     border: 1px solid #FFFFFF;
