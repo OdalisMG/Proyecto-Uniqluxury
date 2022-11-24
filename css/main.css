@@ -21,16 +21,22 @@ body{
     background-color: rgba(0, 0, 0, 0.178);
     align-items: center;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+    
 }
 #registros{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 125%;
 }
 #logo{
     width: fit-content;
     height: fit-content;
     margin-left: 5%;
+    left: 6.35%;
+    right: 79.79;
+    top: 0.91%;
+    bottom:98.67%
 }
 #log{
     font-style: normal;
@@ -39,7 +45,9 @@ body{
     line-height: 16px;
     color: #FFFFFF;
     padding-right: 15px;
-    
+    height: 19px;
+    left:1250px;
+    top: 60px;
 }
 
 #sign{
@@ -50,6 +58,9 @@ body{
     color: #FFFFFF;
     padding-left: 15px;
     border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+    height: 19px;
+    left: 1391px;
+    top:60px
 }
 
 #menu{
@@ -61,23 +72,50 @@ body{
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     display: flex;
 }
-#investigar{
-    border: 1px solid #FFFFFF;
+#buscador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2% 0 1% 0;   
+}
+#buscar{
+    grid-column: 2/2;
+    margin-top: 5%;
     border-radius: 100px;
-    font-family: brandon-grotesque;
-    font-style: normal;
-    font-weight: 390;
-    font-size: 20px;
-    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     background: none;
     padding: 10px 0 10px 25px;
     min-width: 20vw;
-    grid-column: 2/3;
-    grid-column-start: 2;
-    grid-column-end: 3
-    writing-mode: horizontal-tb !important;
-}
+    width: 80%;
+    font-size: 18px;
+    padding: 7px 0 7px 20px;
 
+    
+}
+input#buscar::placeholder{
+    color: white;
+    font-family: 'brandon-grotesque';
+    background-image: url(../img/VectorBuscador.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#cuerpoEncabezado{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    align-items: flex-end;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#luxury{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+#realS{
+    color:#FFFFFF;
+    font-size: 60px;
+}
 #redes{
     position: fixed;
     width: fit-content;
@@ -102,43 +140,8 @@ body{
     align-items: center;
     color:#B4B7B7;
 }
-#reals{
-position: absolute;
-width: 746px;
-height: 99px;
-left:122px;
-top:686px;
-font-style: normal;
-font-weight: 500;
-font-size: 80px;
-line-height: 45px;
-display: flex;
-align-items: center;
-color:#FFFFFF;
-}
-#vista{
-    position: absolute;
-    width: 227px;
-    height: 32px;
-    left: 246px;
-    top: 855px;
-    font-weight: 390;
-    font-size: 30px;
-    line-height: 45px;
-    /* or 150% */
-    align-items: center;
-    
-    color: #FFFFFF;
-    font-weight: 390;
-    font-size: 25px;
-    line-height: 35px;
-    border: 1px solid #FFFFFF;
-    border-radius: 100px;
-    padding: 12px 45px;
-    height: fit-content;
-    width: fit-content;
-    text-decoration: none;
-}
+
+
 #propiedadesrenta{
 
 }
