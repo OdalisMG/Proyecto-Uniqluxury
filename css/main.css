@@ -106,11 +106,28 @@ input#buscar::placeholder{
     margin-left: 5%;
     margin-top: 20%;
 }
+#redes{
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    left:4vh;
+    top: 35%;
+    filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    grid-template-columns: 1fr;
+    z-index: 999999;
+}
 #luxury{
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 40px;
-    color: #FFFFFF;
+ position: absolute;
+width: 490px;
+height: 47px;
+left: 122px;
+font-weight: 400;
+font-size: 40px;
+line-height: 45px;
+display: flex;
+align-items: center;
+color: #B4B7B7;
+
 }
 #realS{
     color:#FFFFFF;
@@ -126,47 +143,76 @@ input#buscar::placeholder{
     grid-template-columns: 1fr;
     z-index: 999999;
 }
-#luxury{
-    position: absolute;
-    width: 490px;
-    height: 47px;
-    left:122px;
-    top: 644px;px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    color:#B4B7B7;
+#seccion2{
+    margin: 7%;
 }
-
-
 #propiedadesrenta{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#wowide{
+    font-weight: 400;
+    font-size: 35px;
+    color: #DF991B;
+}
+#venta{
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+#parrafo1{
+    font-weight: 330;
+    font-size: 23px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+#imagenes{
+    display: flex;
+    align-items: end;
+    align-content: end;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 #casadron{
-    float: left;
-}
-#england{
-    float: left;
-}
-#engl1{
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
     align-items: end;
     background-color: rgba(0, 0, 0, 30%);
-    display: block;
-    color: white;
-    padding: 0 5% 0 5%;
 }
+#england{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+    background-color: rgba(0, 0, 0, 30%);
 }
 #marseilles{
-    float:left;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+    background-color: rgba(0, 0, 0, 30%);
 }
-.seccion3 .album{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+#album{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.class .fotos{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
