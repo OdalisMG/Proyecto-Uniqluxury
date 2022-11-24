@@ -11,11 +11,6 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    background-image: url(../img/Portada.png);
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    grid-template-rows: auto 1fr;
-   
 }
 #primero{
     display: grid;
