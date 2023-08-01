@@ -471,8 +471,6 @@ div#galeria-propiedades , div#galeria-propiedades-renta{
     text-align: left;
 }
 
-/* Renta*/
-
 #galeria-para-renta {
     display: flex;
     align-items: end;
@@ -526,7 +524,6 @@ div#propiedades-en-renta-body {
     margin: 0 10%;
 }
 
-/* Desarrollo*/
 #desarrollo-body {
     display: grid;
 }
@@ -614,7 +611,7 @@ div#propiedades-en-renta-body {
     justify-self: center;
     margin-top: 1.5%;
 }
-/*ARTE Y CULTURA*/
+
 #arte-cultura-body{
     height: 40vw;
     display: grid;
@@ -703,7 +700,6 @@ div#arte-cultura-descripcion-servicios {
     margin-left: 10%;
 }
 
-/* PIE*/
 #pie-pagina{
     grid-template-rows: auto auto 1fr;
     grid-template-columns: 1fr;
@@ -758,7 +754,6 @@ div#arte-cultura-descripcion-servicios {
 
 .nombreUsuario{
     font-size: 14px;
-    /*font-weight: 400;*/
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     margin-bottom: 0;
