@@ -860,7 +860,7 @@ div#arte-cultura-descripcion-servicios {
     align-items: end;
 }
 
-#pie-numero{
+#numero{
     font-family: "PF Regal Display Pro";
     font-style: normal;
     font-weight: 500;
@@ -869,7 +869,7 @@ div#arte-cultura-descripcion-servicios {
     color: #FFFFFF !important;
 }
 
-#pie-call-center{
+#call-center{
     font-family: "PF Regal Display Pro";
     font-style: normal;
     font-weight: 400;
@@ -878,7 +878,7 @@ div#arte-cultura-descripcion-servicios {
     color: #B4B7B7;
 }
 
-#pie-copyright {
+#copyright {
     font-family: brandon-grotesque;
     font-style: normal;
     font-weight: 100;
@@ -890,7 +890,7 @@ div#arte-cultura-descripcion-servicios {
     border-top: 1px solid white;
     padding-top: 1%;
 }
-/* FONTS */
+
 @font-face {
     font-family: 'brandon-grotesque';
     src: url("../fonts/Brandon_reg.otf");
